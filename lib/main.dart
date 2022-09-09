@@ -40,9 +40,10 @@ class MyHomePage extends StatefulWidget {
 ///
 class _MyHomePageState extends State<MyHomePage> {
   /// The link to the 3d file must be a web address
+  // var gltf =
+  //     'http://51xingkong.oss-cn-qingdao.aliyuncs.com/6904a922e6b60ab8ee20a14e9ff97c80%20_1_.gltf';
   var gltf =
-      'http://51xingkong.oss-cn-qingdao.aliyuncs.com/6904a922e6b60ab8ee20a14e9ff97c80%20_1_.gltf';
-
+      'https://raw.githubusercontent.com/lisen87/image_sticking/master/6904a922e6b60ab8ee20a14e9ff97c80%20_1.gltf';
   late var html = '''
           <html>
               <script type='module' src='https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js'></script>
